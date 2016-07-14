@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from bs4 import BeautifulSoup
+from b4 import BeautifulSoup
+#from b4 import BeautifulSoup
 import urllib2
 #import os, re, urlparse
 
