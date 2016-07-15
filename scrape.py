@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import urllib2
 #import os, re, urlparse
 
-#Site = 'https://www.google.co.jp'
-Site = 'http://www.yahoo.co.jp/'
+//test
+Site = 'https://www.amazon.de/Sieben-Brad-Pitt/dp/B000FTCEAA/'
 
 soup = BeautifulSoup(urllib2.urlopen(Site), "lxml")
 #res = soup.find_all("a")
