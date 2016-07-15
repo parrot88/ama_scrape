@@ -18,8 +18,9 @@ class MLStripper(HTMLParser):
 
     def check_href(self,d):
         #a hrefタグがあるか調査、urlのみに変換する
-
-        return d
+        from find_href import fix_href
+        d = fix_href(d)
+        return str(d)
 
 def strip_tags(html):
     s = MLStripper()
