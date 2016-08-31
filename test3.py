@@ -3,7 +3,8 @@
 from bs4 import BeautifulSoup
 import urllib2
 
-Site = 'http://oshiete.goo.ne.jp/qa/1425849.html'
+Site = 'http://oshiete.goo.ne.jp/qa/2190657.html'
+#Site = 'http://oshiete.goo.ne.jp/qa/1425849.html'
 soup = BeautifulSoup(urllib2.urlopen(Site), "lxml")
 from strip_html import strip_tags
 ans = ''
